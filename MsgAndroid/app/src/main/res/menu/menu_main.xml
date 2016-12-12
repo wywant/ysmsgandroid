@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.i075883.myapplication2.MainActivity">
+
+    <item
+        android:id="@+id/server"
+        android:orderInCategory="101"
+        android:title="@string/menuSetHostPort"
+        app:showAsAction="never"
+        android:onClick="changeHostPort"
+        />
+    <item
+        android:id="@+id/permissionCheck"
+        android:orderInCategory="102"
+        android:title="@string/menuPermessionCheck"
+        app:showAsAction="never"
+        android:onClick="checkPermissions"
+        />
+    <item
+        android:id="@+id/connectionTest"
+        android:orderInCategory="103"
+        android:title="@string/menuConnectionTest"
+        app:showAsAction="never"
+        android:onClick="connectionTest"
+        />
+
+
+</menu>
